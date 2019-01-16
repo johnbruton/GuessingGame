@@ -16,10 +16,19 @@ namespace GuessingGame
                 // then they win
                 Console.WriteLine("YOU WIN!");
             }
+            else if (userGuess.Equals("0"))
+            {
+                // then they recieve mo directions
+                Console.WriteLine("You should only select a number between 1 thru 10. Please try again");
+
+            }
             else
             {
                 // otherwise the lose
                 Console.WriteLine("You lose.");
+
+                // if the user guess 0
+               
             }
         }
     }
